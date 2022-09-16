@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ParameterisedShapes
+comment0.text=\ Parameterised\ Shapes\:\ \n\ Core\ and\ Completion\:\ draw\ flags\ with\ three\ horizontal\ stripes\n\ Challenge\:\ draw\ a\ street\ of\ houses\n
+comment1.params=
+comment1.target=void\ doSimpleFlag()
+comment1.text=\ \ \ CORE\n\ Asks\ user\ for\ a\ position\ and\ three\ colours,\ then\ calls\ the\n\ drawThreeStripesFlag\ method,\ passing\ the\ appropriate\ arguments\n
+comment2.params=left\ top\ stripe1\ stripe2\ stripe3
+comment2.target=void\ drawThreeStripesFlag(double,\ double,\ java.awt.Color,\ java.awt.Color,\ java.awt.Color)
+comment2.text=\ \ \ CORE\n\ Draws\ a\ three\ colour\ flag\ at\ the\ given\ position\ consisting\ of\n\ three\ equal\ size\ stripes\ of\ the\ given\ colors\n\ The\ stripes\ are\ horizontal.\n\ The\ size\ of\ the\ flag\ is\ specified\ by\ the\ constants\ FLAG_WIDTH\ and\ FLAG_HEIGHT\n
+comment3.params=
+comment3.target=void\ doFancyFlag()
+comment3.text=\ \ \ COMPLETION\n\ Asks\ user\ for\ a\ position,\ three\ colours,\ three\ heights\ and\ whether\ the\ circles\ are\ filled.\n\ Then\ calls\ the\ drawFancyFlag\ method,\ passing\ the\ appropriate\ arguments\n
+comment4.params=left\ Top\ col1\ col2\ col3\ heightcol1\ heightcol2\ heightcol3
+comment4.target=void\ drawFancyFlag(double,\ double,\ java.awt.Color,\ java.awt.Color,\ java.awt.Color,\ double,\ double,\ double)
+comment4.text=\ \ \ COMPLETION\n\ Calculates\ the\ total\ height\ and\ width\ of\ the\ flag.\n\ The\ width\ of\ the\ flag\ is\ 1.5\ times\ the\ height\ of\ the\ flag.\n\ It\ then\ calls\ drawStripe\ three\ times\ to\ draw\ the\ three\ stripes,\n\ and\ outlines\ the\ flag\ with\ a\ black\ rectangle.\n
+comment5.params=
+comment5.target=void\ drawStripe()
+comment5.text=\ \ \ COMPLETION\n\ Draws\ a\ stripe\ at\ the\ given\ position\ that\ has\ the\ right\ circle\ at\ the\ right\ place.\n
+comment6.params=
+comment6.target=void\ setupGUI()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
